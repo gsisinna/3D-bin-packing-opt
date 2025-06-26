@@ -13,11 +13,11 @@ SKU_NAME = "BenchmarkBox"
 SKU_SIZE = (400, 250, 200)
 SKU_WEIGHT = 5
 
-# Generate all 6 possible axis-aligned rotations
-
-
-def all_rotations(size):
-    return list(set(itertools.permutations(size)))
+# Generate all possible planar rotations
+def planar_rotations(size):
+    w, h, d = size
+    # Only allow rotations that preserve 'height' in the same axis (second)
+    return [(w, d, h), (d, w, h)]
 
 
 # Store results and visuals
@@ -29,7 +29,7 @@ print("\n=== Benchmarking All Rotations ===\n")
 figures = []
 
 # Test each rotation
-for i, rot_dims in enumerate(all_rotations(SKU_SIZE), 1):
+for i, rot_dims in enumerate(planar_rotations(SKU_SIZE), 1):
     print(f"Test #{i}: Orientation {rot_dims}")
     start = time.time()
 
