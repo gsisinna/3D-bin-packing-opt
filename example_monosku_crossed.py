@@ -1,4 +1,9 @@
+import os
+import json
+from decimal import Decimal
+
 from py3dbp import Packer, Bin, Item, Painter
+
 import time
 import copy
 import itertools
@@ -12,6 +17,18 @@ PALLET_WEIGHT_LIMIT = 5000
 SKU_NAME = "BenchmarkBox"
 SKU_SIZE = (300, 200, 150)
 SKU_WEIGHT = 5
+
+# Helper function to convert Decimal to float
+
+
+def convert_decimal(obj):
+    if isinstance(obj, Decimal):
+        return float(obj)
+    elif isinstance(obj, dict):
+        return {k: convert_decimal(v) for k, v in obj.items()}
+    elif isinstance(obj, list):
+        return [convert_decimal(v) for v in obj]
+    return obj
 
 # Generate all possible planar rotations
 
@@ -131,3 +148,49 @@ fig = painter.plotBoxAndItems(
     fontsize=9
 )
 fig.show()
+
+# Prepare JSON output
+pallet_stack = []
+
+for i, item in enumerate(final_bin.items):
+    # Convert dimensions to floats
+    l, w, h = map(float, item.getDimension())
+    x, y, z = map(float, item.position)
+
+    rotated = (round(l), round(w)) != (SKU_SIZE[0], SKU_SIZE[1])
+    rotation_id = layer_id = int(z // layer_height)
+
+    box_info = {
+        "box_id": i,
+        "dimensions": {
+            "height": h,
+            "length": l,
+            "width": w
+        },
+        "grasp_offset": {
+            "dx": 0,
+            "dy": 0,
+            "dz": 0
+        },
+        "grasp_point": {
+            "x": x + l / 2,
+            "y": y + w / 2,
+            "z": z + h / 2
+        },
+        "layer_id": layer_id,
+        "rotated": rotated,
+        "rotation": rotation_id % 2
+    }
+
+    pallet_stack.append(box_info)
+
+output_data = {
+    "pallet_stack": convert_decimal(pallet_stack)
+}
+
+# Save to JSON file
+output_filename = "pallet_output.json"
+with open(output_filename, "w") as f:
+    json.dump(output_data, f, indent=4)
+
+print(f"\nSaved pallet layout to {os.path.abspath(output_filename)}")

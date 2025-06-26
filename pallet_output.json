@@ -1,0 +1,4540 @@
+{
+    "pallet_stack": [
+        {
+            "box_id": 0,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 75.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 1,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 75.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 2,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 75.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 3,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 225.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 4,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 225.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 5,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 225.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 6,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 375.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 7,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 375.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 8,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 375.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 9,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 525.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 10,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 525.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 11,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 525.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 12,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 675.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 13,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 675.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 14,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 675.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 15,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 825.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 16,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 825.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 17,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 825.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 18,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 975.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 19,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 975.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 20,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 975.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 21,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 1125.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 22,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 1125.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 23,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 1125.0,
+                "z": 100.0
+            },
+            "layer_id": 0,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 24,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 150.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 25,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 150.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 26,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 150.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 27,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 150.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 28,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 150.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 29,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 150.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 30,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 450.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 31,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 450.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 32,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 450.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 33,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 450.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 34,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 450.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 35,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 450.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 36,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 750.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 37,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 750.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 38,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 750.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 39,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 750.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 40,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 750.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 41,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 750.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 42,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 1050.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 43,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 1050.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 44,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 1050.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 45,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 1050.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 46,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 1050.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 47,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 1050.0,
+                "z": 300.0
+            },
+            "layer_id": 1,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 48,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 75.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 49,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 75.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 50,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 75.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 51,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 225.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 52,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 225.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 53,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 225.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 54,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 375.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 55,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 375.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 56,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 375.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 57,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 525.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 58,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 525.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 59,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 525.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 60,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 675.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 61,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 675.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 62,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 675.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 63,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 825.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 64,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 825.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 65,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 825.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 66,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 975.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 67,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 975.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 68,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 975.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 69,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 1125.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 70,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 1125.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 71,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 1125.0,
+                "z": 500.0
+            },
+            "layer_id": 2,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 72,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 150.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 73,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 150.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 74,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 150.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 75,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 150.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 76,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 150.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 77,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 150.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 78,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 450.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 79,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 450.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 80,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 450.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 81,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 450.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 82,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 450.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 83,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 450.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 84,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 750.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 85,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 750.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 86,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 750.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 87,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 750.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 88,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 750.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 89,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 750.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 90,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 1050.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 91,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 1050.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 92,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 1050.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 93,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 1050.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 94,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 1050.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 95,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 1050.0,
+                "z": 700.0
+            },
+            "layer_id": 3,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 96,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 75.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 97,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 75.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 98,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 75.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 99,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 225.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 100,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 225.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 101,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 225.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 102,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 375.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 103,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 375.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 104,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 375.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 105,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 525.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 106,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 525.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 107,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 525.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 108,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 675.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 109,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 675.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 110,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 675.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 111,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 825.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 112,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 825.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 113,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 825.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 114,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 975.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 115,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 975.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 116,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 975.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 117,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 1125.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 118,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 1125.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 119,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 1125.0,
+                "z": 900.0
+            },
+            "layer_id": 4,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 120,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 150.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 121,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 150.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 122,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 150.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 123,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 150.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 124,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 150.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 125,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 150.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 126,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 450.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 127,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 450.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 128,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 450.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 129,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 450.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 130,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 450.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 131,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 450.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 132,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 750.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 133,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 750.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 134,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 750.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 135,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 750.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 136,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 750.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 137,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 750.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 138,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 1050.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 139,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 1050.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 140,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 1050.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 141,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 1050.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 142,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 1050.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 143,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 1050.0,
+                "z": 1100.0
+            },
+            "layer_id": 5,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 144,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 75.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 145,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 75.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 146,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 75.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 147,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 225.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 148,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 225.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 149,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 225.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 150,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 375.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 151,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 375.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 152,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 375.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 153,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 525.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 154,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 525.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 155,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 525.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 156,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 675.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 157,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 675.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 158,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 675.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 159,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 825.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 160,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 825.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 161,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 825.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 162,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 975.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 163,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 975.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 164,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 975.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 165,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 1125.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 166,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 1125.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 167,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 1125.0,
+                "z": 1300.0
+            },
+            "layer_id": 6,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 168,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 150.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 169,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 150.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 170,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 150.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 171,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 150.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 172,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 150.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 173,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 150.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 174,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 450.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 175,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 450.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 176,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 450.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 177,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 450.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 178,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 450.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 179,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 450.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 180,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 750.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 181,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 750.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 182,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 750.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 183,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 750.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 184,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 750.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 185,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 750.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 186,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 75.0,
+                "y": 1050.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 187,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 225.0,
+                "y": 1050.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 188,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 375.0,
+                "y": 1050.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 189,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 525.0,
+                "y": 1050.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 190,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 675.0,
+                "y": 1050.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 191,
+            "dimensions": {
+                "height": 200.0,
+                "length": 150.0,
+                "width": 300.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 825.0,
+                "y": 1050.0,
+                "z": 1500.0
+            },
+            "layer_id": 7,
+            "rotated": true,
+            "rotation": 1
+        },
+        {
+            "box_id": 192,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 75.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 193,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 75.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 194,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 75.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 195,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 225.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 196,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 225.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 197,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 225.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 198,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 375.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 199,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 375.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 200,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 375.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 201,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 525.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 202,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 525.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 203,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 525.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 204,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 675.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 205,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 675.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 206,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 675.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 207,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 825.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 208,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 825.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 209,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 825.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 210,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 975.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 211,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 975.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 212,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 975.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 213,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 150.0,
+                "y": 1125.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 214,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 450.0,
+                "y": 1125.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        },
+        {
+            "box_id": 215,
+            "dimensions": {
+                "height": 200.0,
+                "length": 300.0,
+                "width": 150.0
+            },
+            "grasp_offset": {
+                "dx": 0,
+                "dy": 0,
+                "dz": 0
+            },
+            "grasp_point": {
+                "x": 750.0,
+                "y": 1125.0,
+                "z": 1700.0
+            },
+            "layer_id": 8,
+            "rotated": true,
+            "rotation": 0
+        }
+    ]
+}
