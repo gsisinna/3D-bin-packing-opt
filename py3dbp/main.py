@@ -1,3 +1,4 @@
+from decimal import Decimal
 from .constants import RotationType, Axis
 from .auxiliary_methods import intersect, set2Decimal
 import numpy as np
@@ -153,9 +154,9 @@ class Bin:
             dimension = item.getDimension()
             # rotatate
             if (
-                self.width < pivot[0] + dimension[0] or
-                self.height < pivot[1] + dimension[1] or
-                self.depth < pivot[2] + dimension[2]
+                self.width < Decimal(pivot[0]) + dimension[0] or
+                self.height < Decimal(pivot[1]) + dimension[1] or
+                self.depth < Decimal(pivot[2]) + dimension[2]
             ):
                 continue
 

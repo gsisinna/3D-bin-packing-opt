@@ -1,5 +1,5 @@
 from typing import Tuple, Dict
-from utils import convert_decimal
+from .utils import convert_decimal
 from py3dbp import Packer, Bin, Item
 import sys
 import os

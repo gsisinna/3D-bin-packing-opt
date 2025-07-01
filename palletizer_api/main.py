@@ -1,5 +1,5 @@
-from palletizer import palletize_single_sku
-from models import PalletizationRequest, PalletizationResponse
+from .palletizer import palletize_single_sku
+from .models import PalletizationRequest, PalletizationResponse
 from fastapi import FastAPI
 import sys
 import os
