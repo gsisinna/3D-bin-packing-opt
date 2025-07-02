@@ -6,7 +6,7 @@ import pyvista as pv
 import matplotlib.pyplot as plt
 import random
 import numpy as np
-from collections import Counter
+from collections import Counter, defaultdict
 import copy
 DEFAULT_NUMBER_OF_DECIMALS = 0
 START_POSITION = [0, 0, 0]
@@ -679,11 +679,16 @@ class Painter:
             text=""
         )
 
+        used_volume = 0
+        item_counts = defaultdict(int)
+
         for item in self.items:
             x, y, z = item.position
             w, h, d = item.getDimension()
             color = item.color
             text = item.partno if write_num else ""
+
+            used_volume += w * h * d
 
             if item.typeof == 'cube':
                 self._plotCube(
@@ -709,6 +714,23 @@ class Painter:
                     opacity=alpha,
                     edge_width=1.0
                 )
+
+        total_volume = self.width * self.height * self.depth
+        efficiency = round((used_volume / total_volume) * 100, 2)
+
+        # Prepare HUD text
+        hud_lines = [
+            f"Pallet Statistics - {title}",
+            f"Total Volume     : {total_volume:.0f} mm³",
+            f"Used Volume      : {used_volume:.0f} mm³",
+            f"Utilization      : {efficiency:.2f}%",
+            f"Total Items      : {len(self.items)}"
+        ]
+        hud_text = "\n".join(hud_lines)
+
+        # Add HUD overlay
+        plotter.add_text(hud_text, position='upper_left',
+                         font_size=10, color='black', shadow=True)
 
         plotter.set_background("white")
         plotter.show(title=title)
