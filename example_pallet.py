@@ -1,3 +1,4 @@
+from matplotlib import pyplot as plt
 from py3dbp import Packer, Bin, Item, Painter
 import time
 import copy
@@ -22,6 +23,13 @@ skus = [
     ("SKU-10", (500, 400, 200), 9),
 ]
 
+# Precompute colors
+cmap = plt.colormaps.get_cmap("tab20").resampled(len(skus))
+sku_colors = [
+    tuple(int(255 * c) for c in cmap(i)[:3])  # RGB 0–255
+    for i in range(len(skus))
+]
+
 # Track added items
 added_items = []
 added_count = 0
@@ -30,6 +38,7 @@ max_attempts = 1000
 while added_count < max_attempts:
     sku_index = added_count % len(skus)
     sku_name, sku_dims, sku_weight = skus[sku_index]
+    color_rgb = sku_colors[sku_index]  # color based on SKU type
 
     new_item = Item(
         partno=f'{sku_name}-{added_count}',
@@ -40,7 +49,7 @@ while added_count < max_attempts:
         level=1,
         loadbear=100,
         updown=True,
-        color='skyblue'
+        color=color_rgb
     )
 
     # Simulate packing with all added items + new one
@@ -115,7 +124,7 @@ for b in final_packer.bins:
     painter = Painter(b)
     fig = painter.plotBoxAndItems(
         title=b.partno,
-        alpha=0.8,
+        alpha=1.0,
         write_num=False,
         fontsize=10
     )
@@ -130,5 +139,3 @@ else:
 
 stop = time.time()
 print(f"\nTotal Time Used: {round(stop - start, 2)} seconds")
-
-fig.show()
