@@ -14,14 +14,17 @@ def run_benchmark(
     num_tests=10,
     visualize=False
 ):
+    # Define colormap to differentiate boxes
     cmap = plt.colormaps.get_cmap("tab20").resampled(len(skus))
     sku_colors = [
         tuple(int(255 * c) for c in cmap(i)[:3])
         for i in range(len(skus))
     ]
 
-    boxes_per_sku = boxes_per_test // len(skus)  # equal count per SKU
+    # Equal count per SKU
+    boxes_per_sku = boxes_per_test // len(skus)
 
+    # Decoupled test for each seed
     for test_idx in range(num_tests):
         random.seed(time.time() + test_idx)
         print(f"\n=== TEST {test_idx + 1} / {num_tests} ===")
@@ -32,25 +35,30 @@ def run_benchmark(
         for sku_index, (sku_name, sku_dims, sku_weight) in enumerate(skus):
             color_rgb = sku_colors[sku_index]
             for i in range(boxes_per_sku):
-                # Randomly permute width-height-depth
-                dims = list(sku_dims)
-                random.shuffle(dims)
+                # Shuffle only width and depth; keep height fixed
+                dims = list(sku_dims)  # [W, D, H]
+                width_depth = [dims[0], dims[1]]  # Only width and depth
+                random.shuffle(width_depth)
+
+                # Keep height fixed
+                dims_shuffled = [width_depth[0],
+                                 width_depth[1], dims[2]]
+
+                # Append items in the queue
                 item_queue.append(Item(
                     partno=f'{sku_name}-{test_idx}-{i}',
                     name=f'{sku_name}-Box-{test_idx}-{i}',
                     typeof='cube',
-                    WHD=tuple(dims),  # Randomized orientation
+                    WHD=tuple(dims_shuffled),  # Oriented in-plane
                     weight=sku_weight,
                     level=1,
                     loadbear=100,
-                    updown=True,
+                    updown=False,
                     color=color_rgb
                 ))
 
         # Full randomization of queue order — unique each test
         random.shuffle(item_queue)
-        print(
-            f"First 5 items in queue (test {test_idx}): {[item.partno for item in item_queue[:5]]}")
 
         # Pack
         packer = Packer()
@@ -68,7 +76,7 @@ def run_benchmark(
 
         packer.pack(
             bigger_first=True,
-            distribute_items=True,
+            distribute_items=False,
             fix_point=True,
             check_stable=True,
             support_surface_ratio=0.75,
@@ -76,24 +84,32 @@ def run_benchmark(
         )
 
         bin = packer.bins[0]
-        total_volume = bin.width * bin.height * bin.depth
-        used_volume = sum(i.width * i.height * i.depth for i in bin.items)
-        utilization = round((used_volume / total_volume) * 100, 2)
+        total_pallet_volume = bin.width * bin.height * bin.depth
+        packed_items = bin.items
+        packed_partnos = set(item.partno for item in packed_items)
+        unfitted_items = [
+            item for item in item_queue if item.partno not in packed_partnos]
+
+        used_volume = sum(i.width * i.height * i.depth for i in packed_items)
+        unfitted_volume = sum(i.width * i.height *
+                              i.depth for i in unfitted_items)
+        utilization = round((used_volume / total_pallet_volume) * 100, 2)
 
         # Report
-        print(f"Items attempted : {len(item_queue)}")
-        print(f"Items packed    : {len(bin.items)}")
-        print(f"Used volume     : {used_volume} mm³")
-        print(f"Total volume    : {total_volume} mm³")
-        print(f"Utilization     : {utilization}%")
-        print(f"Unfitted items  : {len(packer.unfit_items)}")
-        print(f"Center of Mass  : {bin.gravity}")
-        print(f"Time taken      : {round(time.time() - start, 2)} seconds")
+        print(f"Items attempted      : {len(item_queue)}")
+        print(f"Items packed         : {len(packed_items)}")
+        print(f"Items unpacked       : {len(unfitted_items)}")
+        print(f"Packed volume        : {used_volume} mm³")
+        print(f"Unpacked volume      : {unfitted_volume} mm³")
+        print(f"Total pallet volume  : {total_pallet_volume} mm³")
+        print(f"Utilization          : {utilization}%")
+        print(
+            f"Time taken           : {round(time.time() - start, 2)} seconds")
 
         if visualize:
             painter = Painter(bin)
             painter.plotBoxAndItems(
-                title=bin.partno, alpha=1.0, write_num=False)
+                title=bin.partno, alpha=1.0, write_num=True)
 
 
 # ============================================
