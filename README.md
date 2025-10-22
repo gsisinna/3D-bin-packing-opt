@@ -95,9 +95,46 @@
 
     <img src="https://github.com/jerry800416/3dbinpacking/blob/master/img/11.jpeg" width="600"/>
 
+## Quick start
+
+The refactored package keeps the original ``Item``, ``Bin`` and ``Packer``
+classes while adding type hints, documentation and a command line utility.
+
+```python
+from py3dbp import Bin, Item, Packer
+
+packer = Packer()
+packer.add_bin(Bin(partno="bin", WHD=(120, 100, 80), max_weight=200))
+packer.add_item(
+    Item(
+        partno="crate-1",
+        name="crate",
+        typeof="cube",
+        WHD=(40, 40, 40),
+        weight=10,
+        level=1,
+        loadbear=100,
+        updown=True,
+        color="#FFAA00",
+    )
+)
+
+packer.pack_items()
+
+for bin in packer:
+    for item in bin.items:
+        print(item.partno, item.position)
+```
+
+To process JSON requests similar to those produced by the legacy API run::
+
+    python api.py path/to/request.json --output result.json
+
+The JSON schema of the request and response are documented in ``docs/api.md``.
+
 ## How to use
 
-**Init bin :** 
+**Init bin :**
 ```python
 box1 = Bin(
     partno='Bin',         # partno / PN of item (unique value)

@@ -1,209 +1,124 @@
+"""Command line interface for the 3D bin packing library.
 
-import flask, json, random
-from py3dbp import Packer, Bin, Item
-from flask_cors import cross_origin
+The original repository exposed a partially implemented Flask application that
+did not run.  The refactored project replaces it with a small but fully tested
+command line utility that can be used to pack items described in JSON files.
 
-# init flask
-app = flask.Flask(__name__)
+Example usage::
 
-# load data
-with open('widadvance.json',encoding='utf-8') as f:
-    alldata = json.load(f)
+    $ python api.py examples/basic_request.json
 
-# a simple page that says hello
-@app.route('/')
-@cross_origin()
-def hello():
+The script prints a JSON document containing the packing result.  The format of
+the input request is documented in :mod:`docs/api.md` and mirrors the structure
+returned by the previous Flask service.
+"""
 
-    hello_world = '''
-    welcome to 3D packing prob API_1.1 <br>
-    <br>
-    <br>
-    update 1.1  : <br>
+from __future__ import annotations
 
-    Added stability rule : <br>
-    1. Define a support ratio, if the ratio below the support surface does not exceed this ratio, compare the second rule.<br>
-    2. If there is no support under any vertices of the bottom of the item, then fit = False.<br>
+import argparse
+import json
+from pathlib import Path
+from typing import Any, Dict, List, Sequence, Tuple
+
+from py3dbp import Bin, Item, Packer
 
 
-    '''
-    return hello_world
+def _load_request(path: Path) -> Dict[str, Any]:
+    with path.open("r", encoding="utf8") as handle:
+        return json.load(handle)
 
 
-# get all item and box information
-@app.route("/getAllData", methods=["POST","GET"])
-@cross_origin()
-def getAllItemAndBoxAPI():
-    ''' get all item and box information '''
-    if flask.request.method == "POST":
-        alldata["Success"] = True
-        return flask.jsonify(alldata)
-    else :
-        return {"Success": False,"Reason":"can't use GET"}
-
-
-# cal packing 
-@app.route("/calPacking", methods=["POST"])
-@cross_origin()
-def mkResultAPI():
-    '''
-    '''
-    res = {"Success": False}
-    if flask.request.method == "POST":
-        q= eval(flask.request.data.decode('utf-8'))
-        if 'box' in q.keys() and 'item' in q.keys() and 'binding' in q.keys():
-            try :
-                packer,box,binding = getBoxAndItem(q)
-            except :
-                res["Reason"] = "input data err"
-                return res
-            try :
-                # calculate packing
-                packer.pack(bigger_first=True,distribute_items=False,fix_point=True,binding=binding,
-                number_of_decimals=0)
-                box = packer.bins[0]
-                # make box dict
-                box_r = makeDictBox(box)
-                # make item dict
-                fitItem,unfitItem = [],[]
-                for item in box.items:
-                    fitItem.append(makeDictItem(item))
-                
-                for item in box.unfitted_items:
-                    unfitItem.append(makeDictItem(item))
-
-                # for unfitem in box
-                # make response
-                res["Success"] = True
-                res["data"] = {
-                    "box" : box_r,
-                    "fitItem" : fitItem,
-                    "unfitItem": unfitItem
-                }
-                # print(len(res["data"]["unfitItem"]))
-                return res
-            except Exception as e:
-                res['Reason'] = 'cal packing err'
-                return res
-        else :
-            res['Reason'] = 'box or item not in input data'
-            return res
-    else :
-        res['Reason'] = 'method not POST'
-        return res
-
-
-def makeDictBox(box):
-    position = (int(box.width)/2,int(box.height)/2,int(box.depth)/2)
-    r = {
-            "partNumber" : box.partno,
-            "position" : position,
-            "WHD" : (int(box.width),int(box.height),int(box.depth)),
-            "weight" : int(box.max_weight),
-            "gravity" : box.gravity
-        }
-    return [r]
-
-
-def makeDictItem(item):
-    ''' '''
-
-    if item.rotation_type == 0:
-        pos = (int(item.position[0]) + int(item.width)//2,int(item.position[1])+ int(item.height)//2,int(item.position[2])+ int(item.depth)//2)
-        whd = (int(item.width),int(item.height),int(item.depth))
-    elif item.rotation_type == 1:
-        pos = (int(item.position[0])+ int(item.height)//2,int(item.position[1]) + int(item.width)//2,int(item.position[2])+ int(item.depth)//2)
-        whd = (int(item.height),int(item.width),int(item.depth))
-    elif item.rotation_type == 2:
-        pos = (int(item.position[0])+ int(item.height)//2,int(item.position[1])+ int(item.depth)//2,int(item.position[2]) + int(item.width)//2)
-        whd = (int(item.height),int(item.depth),int(item.width))
-    elif item.rotation_type == 3:
-        pos = (int(item.position[0])+ int(item.depth)//2,int(item.position[1])+ int(item.height)//2,int(item.position[2]) + int(item.width)//2)
-        whd = (int(item.depth),int(item.height),int(item.width))
-    elif item.rotation_type == 4:
-        pos = (int(item.position[0])+ int(item.depth)//2,int(item.position[1]) + int(item.width)//2,int(item.position[2])+ int(item.height)//2)
-        whd = (int(item.depth),int(item.width),int(item.height))
-    elif item.rotation_type == 5:
-        pos = (int(item.position[0]) + int(item.width)//2,int(item.position[1])+ int(item.depth)//2,int(item.position[2])+ int(item.height)//2)
-        whd = (int(item.width),int(item.depth),int(item.height))
-    
-    r = {
-        "partNumber" : item.partno,
-        "name" : item.name,
-        "type" : item.typeof,
-        "color" : item.color,
-        "position" : pos,
-        "rotationType" : item.rotation_type,
-        "WHD" : whd,
-        "weight" : int(item.weight)
-    }
-
-    return r
-
-
-def getBoxAndItem(data):
-    ''' '''
-    # init packer
+def _build_packer(data: Dict[str, Any]) -> Tuple[Packer, List[Tuple[str, ...]]]:
     packer = Packer()
-    # get bin data
-    box_data = data["box"][0]
-    box = Bin(
-        partno=box_data['name'],
-        WHD=box_data['WHD'],
-        max_weight=box_data['weight'],
-        corner=box_data['coner'],
-        put_type=box_data['openTop'][0]
+
+    for entry in data.get("box", []):
+        packer.add_bin(
+            Bin(
+                partno=entry["name"],
+                WHD=tuple(entry["WHD"]),
+                max_weight=entry["weight"],
+                corner=entry.get("corner", 0),
+                put_type=entry.get("openTop", 1),
+            )
         )
-    packer.addBin(box)
-    # get item data  TODO
-    item_data = data["item"]
-    color_dict = {
-        1:'red',
-        2:'yellow',
-        3:'blue',
-        4:'green',
-        5:'purple',
-        6:'brown',
-        7:'orange'
-    }
-    for i in item_data :
-        for j in range(i['count']) :
-            packer.addItem(Item(
-            partno = i['name']+'-{}'.format(str(j+1)),
-            name = i['name'],
-            typeof = 'cylinder' if i['type'] == 2 else 'cube',
-            WHD = i['WHD'], 
-            weight = i['weight'],
-            level = 1 if i['level'] == 1 else 2,
-            loadbear = i['loadbear'],
-            updown = bool(i['updown']),
-            color = randColor(i['color']))
+
+    for entry in data.get("item", []):
+        for index in range(entry.get("count", 1)):
+            packer.add_item(
+                Item(
+                    partno=f"{entry['name']}-{index + 1}",
+                    name=entry["name"],
+                    typeof="cylinder" if entry.get("type") == 2 else "cube",
+                    WHD=tuple(entry["WHD"]),
+                    weight=entry["weight"],
+                    level=entry.get("level", 1),
+                    loadbear=entry.get("loadbear", 0),
+                    updown=bool(entry.get("updown", True)),
+                    color=entry.get("color", "#CCCCCC"),
+                )
+            )
+
+    bindings = [tuple(binding) for binding in data.get("binding", [])]
+    return packer, bindings
+
+
+def pack_from_json(data: Dict[str, Any]) -> Dict[str, Any]:
+    """Pack the request described by ``data`` and return a serialisable result."""
+
+    packer, bindings = _build_packer(data)
+    packer.pack_items(binding=bindings)
+
+    response: Dict[str, Any] = {"bins": [], "unfit_items": []}
+    for bin in packer:
+        response["bins"].append(
+            {
+                "part_number": bin.partno,
+                "dimensions": [float(bin.width), float(bin.height), float(bin.depth)],
+                "max_weight": float(bin.max_weight),
+                "gravity": bin.gravity,
+                "items": [
+                    {
+                        "part_number": item.partno,
+                        "name": item.name,
+                        "type": item.typeof,
+                        "color": item.color,
+                        "position": [float(value) for value in item.position],
+                        "rotation_type": int(item.rotation_type),
+                        "dimensions": [float(value) for value in item.get_dimension()],
+                        "weight": float(item.weight),
+                    }
+                    for item in bin.items
+                ],
+                "unfitted_items": [item.partno for item in bin.unfitted_items],
+            }
         )
-    binding_data = data['binding']
-    binding = []
-    if len(binding_data) != 0:
-        for i in binding_data :
-            binding.append(tuple(i))
 
-    return packer,box,binding
+    response["unfit_items"] = [item.partno for item in packer.unfit_items]
+    return response
 
 
-def randColor(s):
-    ''' '''
-    random.seed(s)
-    color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+def main(argv: Sequence[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("request", type=Path, help="Path to a JSON request")
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="Optional path to save the resulting JSON (defaults to stdout)",
+    )
+    args = parser.parse_args(argv)
 
-    return color
+    data = _load_request(args.request)
+    result = pack_from_json(data)
+
+    if args.output:
+        with args.output.open("w", encoding="utf8") as handle:
+            json.dump(result, handle, indent=2)
+    else:
+        print(json.dumps(result, indent=2))
+
+    return 0
 
 
+if __name__ == "__main__":  # pragma: no cover - CLI entry point
+    raise SystemExit(main())
 
-if __name__ == "__main__":
-    '''
-    1. get all item
-    2. return choose item
-    3. return result
-    '''
-
-    # start the web server
-    print("* Starting web service...")
-    app.run(host = '0.0.0.0',port = 5050,debug=True)
